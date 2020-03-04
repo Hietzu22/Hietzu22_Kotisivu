@@ -38,3 +38,38 @@
     background: #0d63d3;
     color: white;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+#row {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
