@@ -130,3 +130,10 @@ body {
     background-color: white;
     color: black;
 }
+
+.flag {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+}
