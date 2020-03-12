@@ -150,10 +150,12 @@ body p {
 
 .vas {
     width: 20%;
+    background-color: #afafaf;
 }
 
 .oik {
     width: 80%;
+    background-color: white;
 }
 
 .column1:after, .column2:after {
