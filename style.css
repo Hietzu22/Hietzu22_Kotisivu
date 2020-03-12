@@ -143,21 +143,27 @@ body p {
     font-size: 20px;
 }
 
-.column {
+.vas, .oik {
     float: left;
-    width: 23.33%;
     padding: 10px;
-    height: 300px;
 }
 
-.row:after {
+.vas {
+    width: 20%;
+}
+
+.oik {
+    width: 80%;
+}
+
+.column1:after, .column2:after {
     content: "";
     display: table;
     clear: both;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+.projects {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
 }
