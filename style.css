@@ -50,39 +50,30 @@ body {
 * {
     box-sizing: border-box;
 }
-
-#row {
-    display: flex;
-    flex-wrap: wrap;
-    color: black;
-}
-
-.side {
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
+/* Create two unequal columns that floats next to each other */
+.columni {
     float: left;
-}
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  .vas {
+    width: 25%;
+  }
+  
+  .oik {
+    width: 75%;
+  }
+  
+  /* Clear floats after the columns */
+  .rivi:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.main {
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-    float: none;
-}
 
-@media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
-}
 
-@media screen and (max-width: 400px) {
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
-}
 
 .dropbtn {
     background-color: black;
