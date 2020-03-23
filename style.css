@@ -71,13 +71,13 @@ body {
     float: none;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (width: 700px) {
     .row {
         flex-direction: column;
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (width: 400px) {
     .navbar a {
         float: none;
         width: 100%;
